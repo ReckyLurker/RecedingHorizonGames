@@ -26,7 +26,7 @@ H = 10; % Horizon Length for the Game-Theoretic MPC
 MAX_ITER = 7500; % Maximum number of iterations to find vGNE 
 MIN_ITER = 100; % Minimum number of iterations to find vGNE 
 T = 50; % Total Time-Steps to simulate
-MONTE_CARLO_SIMULATIONS = 500; 
+MONTE_CARLO_SIMULATIONS = 200; 
 
 %%%% Player Dynamics Setup %%%%
 nx = 2; % Number of States 
